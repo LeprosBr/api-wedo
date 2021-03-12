@@ -8,6 +8,12 @@ video_put_args = reqparse.RequestParser()
 video_put_args.add_argument("name", tyoer=str, help="Name of the video")
 video_put_args.add_argument("views", tyoer=str, help="Views of the video")
 video_put_args.add_argument("likes", tyoer=str, help="Likes of the video")
+video_put_args.add_argument("likes", tyoer=str, help="Likes of the video")
+video_put_args.add_argument("likes", tyoer=str, help="Likes of the video")
+video_put_args.add_argument("likes", tyoer=str, help="Likes of the video")
+video_put_args.add_argument("likes", tyoer=str, help="Likes of the video")
+video_put_args.add_argument("likes", tyoer=str, help="Likes of the video")
+video_put_args.add_argument("likes", tyoer=str, help="Likes of the video")
 
 
 videos = {}
